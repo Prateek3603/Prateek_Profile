@@ -1,0 +1,57 @@
+body {
+    margin: auto;
+}
+
+#header {
+    height: 60px;
+    width: 100%;
+    /* border: 5px solid black; */
+    background-color: rgb(235, 217, 193);
+
+}
+
+.slogo {
+    height: 50px;
+    width: 50px;
+}
+
+#logo {
+    float: left;
+    /* float: left; and  position: absolute; work for same either one of these work */
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 6px;
+    position: absolute;
+}
+
+#social {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+#search {
+    height: 400px;
+    width: 100%;
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+    /* first 100 is width and 400 is height */
+    border: 5px solid blue;
+}
+
+#quicksearch {
+    height: 400px;
+    width: 100%;
+    border: 5px solid green;
+}
+
+#footer {
+    height: 60px;
+    width: 100%;
+    border: 5px solid pink;
+}

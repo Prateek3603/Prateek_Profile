@@ -1,0 +1,59 @@
+/* body {
+    margin: auto;
+} */
+
+header {
+    color: green;
+    text-align: center;
+}
+
+/*card css*/
+.card {
+
+    height: 450px;
+    width: 20%;
+    background-color: pink;
+    display: inline-block;
+    /*or float: left: ; we can use also*/
+    overflow: scroll;
+    /* for scrolling if more content is avaialble*/
+    margin: 2%;
+
+    /* overflow: hidden; */
+}
+
+
+
+.cardimg {
+    width: 100%;
+    height: 200px;
+
+}
+
+.darkbrown {
+    background-color: #955029;
+}
+
+.tan {
+    background-color: #a9dcfb;
+}
+
+.skyblue {
+    background-color: #2b72be;
+}
+
+.badal {
+    background-color: #aebbc4;
+}
+
+.contentdiv {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    color: green;
+    text-align: center;
+    width: 100%;
+    bottom: 0
+}
