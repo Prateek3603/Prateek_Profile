@@ -43,7 +43,24 @@ a {
     /* first 100 is width and 400 is height */
     border: 5px solid blue;
 }
+/*icon*/
+#icon{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left:43%;
+    margin-top: 3%;
+    position: relative;
+    
 
+}
+
+
+
+
+
+/*quick search*/
 #quicksearch {
     height: 400px;
     width: 100%;
